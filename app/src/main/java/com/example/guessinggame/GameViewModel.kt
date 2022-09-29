@@ -62,4 +62,8 @@ class GameViewModel : ViewModel() {
         true -> str
         false -> "_"
     }
+
+    fun finishGame() {
+        _gameOver.value = true
+    }
 }
